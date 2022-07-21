@@ -22,6 +22,10 @@ public class Language {
         this.ranking = ranking;
     }
 
+    public String getId() {
+        return id;
+    }
+
     public String getTitle() {
         return title;
     }
@@ -32,5 +36,21 @@ public class Language {
 
     public int getRanking() {
         return ranking;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
+    public void setImage(String image) {
+        this.image = image;
+    }
+
+    public void setRanking(int ranking) {
+        this.ranking = ranking;
     }
 }
