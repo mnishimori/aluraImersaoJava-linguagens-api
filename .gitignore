@@ -59,8 +59,8 @@ YourProjetcName/app/build/
 */YourProjetcName/.gradle/
 */YourProjetcName/app/build/
 */target/*
-src/main/resources/application.properties
-.properties
+# src/main/resources/application.properties
+# .properties
 
 # IntelliJ related
 *.iml
