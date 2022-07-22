@@ -20,6 +20,7 @@ public class LinguagemController {
     @Autowired
     private LanguageRepository repository;
 
+
     @PostMapping
     @ResponseStatus(HttpStatus.CREATED)
     public Language save(@RequestBody Language language){
@@ -73,4 +74,6 @@ public class LinguagemController {
             return ResponseEntity.notFound().build();
         }
     }
+
+    // TODO - fazer o endpoint para atualização do ranking
 }
