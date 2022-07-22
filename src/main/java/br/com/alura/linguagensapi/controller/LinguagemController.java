@@ -74,6 +74,4 @@ public class LinguagemController {
             return ResponseEntity.notFound().build();
         }
     }
-
-    // TODO - fazer o endpoint para atualização do ranking
 }
