@@ -16,6 +16,9 @@ public class Language {
 
     private int ranking;
 
+    public Language(){
+    }
+
     public Language(String title, String image, int ranking) {
         this.title = title;
         this.image = image;
