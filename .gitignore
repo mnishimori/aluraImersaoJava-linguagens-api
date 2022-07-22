@@ -61,6 +61,7 @@ YourProjetcName/app/build/
 */target/*
 # src/main/resources/application.properties
 # .properties
+src/main/resources/additional.properties
 
 # IntelliJ related
 *.iml
